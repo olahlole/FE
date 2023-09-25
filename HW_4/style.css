@@ -1,0 +1,22 @@
+.card {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.en {
+    display: none;
+}
+
+.ru {
+    display: block;
+}
+
+.active .en {
+    display: block;
+}
+
+.active .ru {
+    display: none;
+}
