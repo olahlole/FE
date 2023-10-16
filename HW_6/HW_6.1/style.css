@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns:  auto auto auto auto auto auto auto auto auto;
+    background-color: rgba(11, 27, 11, 0.936);
+    width: 1100px;
+    height: 490px;
+    gap: 1px;
+    /* padding: 10px;  */
+
+  }
+  .grid-container > div {
+    text-align: center;
+    font-size: 15px;
+    /* border: 1px solid #ccc; */
+    padding: 20px;
+    height: 120px;
+    width: 120px;
+    
+  }
+
+  p {
+    padding-top: 30px;
+    color: black;
+  }
+
+  .itemLi,.itemFb,.itemTw,.itemTe,.itemDb,.itemIn,.itemRe
+  {border: 2px solid #c0d80d; /* Добавляем границу */
+    color: #c0d80d;
+  }
+  .itemCt,
+  .itemSl,
+  .itemWk,
+  .itemSp,
+  .itemGt,
+  .itemYn,
+  .itemTe,
+  .itemWu,
+  .itemCv,
+  .itemDg,
+  .itemTg,
+  .itemEx,
+  .itemSo,
+  .itemCd,
+  .itemCp,
+  .itemRd,
+  .itemSt,
+  .itemAd,
+  .itemMu,
+  .itemMe,
+  .itemNo,
+  .itemRd,
+  .itemGg,
+  .itemTc,
+  .itemSl,
+  .itemIl
+   {
+      border: 2px solid #1c07d7; /* Добавляем границу */
+      color: #1c07d7;
+    
+  }
+
+  /* .item0{ */
+    /* background-color: blueviolet; */
+    /* border: none;Убираем границу */
+  /* } */
+  
+  
+
+
+  
+
+
+
+  

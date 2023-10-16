@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);/* 6 колонки с равной шириной */
+    background-color: aliceblue;
+    padding: 10px;
+  }
+  .grid-container > div {
+    display: flex;
+    align-items: end;
+    justify-content: end;
+    /* align-self: end; Вертикальное выравнивание вниз */
+    /* justify-self: end; Горизонтальное выравнивание справа */
+    /* text-align: right ; */
+    /* padding: 10px; */
+    padding-top: 10px;
+    font-size: 18px;
+    border: 1px dotted #0b0b0b;
+  }
+  
+  div {
+    background-color: #ebecc5;
+  } 
+  .item1 {
+    background-color: #bbeab6;
+    grid-column: span 2;
+    grid-row: span 2 ;
+  }
+  .item2 {
+    grid-column: span 2;
+  }
+  .item3 {
+    background-color: #b6e1ea;
+  }
+  .item4 {
+    background-color: #f1ed67;
+    grid-column: span 2;
+    grid-row: span 2 ;
+  }
+  .item5{
+    grid-column: span 2;
+  }
+  .item6{
+    background-color: #f9d8df;
+  }
+  .item7{
+    grid-row: span 2;
+  }
+  .item8{
+    background-color: #f9d8df;
+    grid-column: span 2;
+    grid-row: span 2 ;
+  }
+  .item9 {
+    background-color: #b6e1ea;
+    grid-row: span 2 ;
+  }
+  .item10{
+    grid-column: span 2;
+    grid-row: span 2 ;
+  }
+  .item11{
+    background-color: #f1ed67;
+    grid-column: span 2;
+  }
+  .item12{
+    grid-column: span 2;
+  }
+  .item14 {
+    grid-column: span 2;
+  }
+  .item15 {
+    grid-column: span 2;
+    grid-row: span 2 ;
+  }
+  .item16 {
+    background-color: #f9d8df;
+  }
+
+  .item17 {
+    grid-column: span 2
+  }
+
+  .item18 {
+    background-color: #f1ed67;
+    grid-column: span 2;
+    grid-row: span 2 ;
+  }
+
+  .item19 {
+    background-color: #b6e1ea;
+    grid-column: span 2;
+    grid-row: span 2 ;
+  }
+
+  .item20 {
+    grid-row: span 2 ;
+  }
+
+  .item21 {
+    background-color: #bbeab6;
+    grid-column: span 2;
+    grid-row: span 2 ;
+  }
+   .item22 {
+    grid-row: span 2 ;
+   }
+   .item23 {
+    grid-column: span 2;
+   }
+   .item24{
+    grid-column: span 2;
+   }
+
+  
+
+  
+    
+   
+   
+
+
+
+
